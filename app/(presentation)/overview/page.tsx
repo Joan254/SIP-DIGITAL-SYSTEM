@@ -24,7 +24,7 @@ export default function OverviewPage() {
 
         <p className="text-lg md:text-xl text-blue-100 max-w-2xl mb-10 leading-relaxed">
           A standardized digital platform to streamline SIP submission, multi-level approval,
-          fund authorization, and real-time monitoring across all public schools.
+          fund authorization, and real-time monitoring across all public primary schools.
         </p>
 
         <div className="flex flex-wrap gap-3 text-sm mb-12">

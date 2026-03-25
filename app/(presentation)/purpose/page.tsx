@@ -4,7 +4,7 @@ const purposes = [
   {
     icon: "📋",
     title: "Standardized Workflow",
-    description: "Establish a clear, uniform digital process for SIP submission and approval across all schools.",
+    description: "Establish a clear, uniform digital process for SIP submission and approval across primary schools.",
   },
   {
     icon: "🔐",
@@ -58,8 +58,6 @@ export default function PurposePage() {
             <h3 className="font-bold text-base mb-2">Scope of Application</h3>
             <ul className="text-blue-100 text-sm space-y-1.5">
               <li>• All public primary schools</li>
-              <li>• Junior schools</li>
-              <li>• Senior schools</li>
               <li>• Sub-County &amp; County Directors of Education</li>
               <li>• MoE HQ &amp; KPEEL Project Implementation Unit</li>
               <li>• All authorized system users</li>

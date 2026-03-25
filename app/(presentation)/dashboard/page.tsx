@@ -5,10 +5,10 @@ import PageNav from "@/components/sip/PageNav";
 
 const mockSIPs = [
   { ref: "SIP-2025-001", school: "Nairobi Primary School", county: "Nairobi", amount: 150000, submitted: "10 Mar 2025", status: "CDE Validated", statusColor: "bg-green-100 text-green-700" },
-  { ref: "SIP-2025-002", school: "Mombasa Secondary School", county: "Mombasa", amount: 200000, submitted: "11 Mar 2025", status: "SCDE Approved", statusColor: "bg-blue-100 text-blue-700" },
-  { ref: "SIP-2025-003", school: "Kisumu Girls High School", county: "Kisumu", amount: 175000, submitted: "12 Mar 2025", status: "Submitted", statusColor: "bg-yellow-100 text-yellow-700" },
-  { ref: "SIP-2025-004", school: "Nakuru Boys Secondary", county: "Nakuru", amount: 180000, submitted: "8 Mar 2025", status: "Funds Disbursed", statusColor: "bg-orange-100 text-orange-700" },
-  { ref: "SIP-2025-005", school: "Eldoret Junior School", county: "Uasin Gishu", amount: 120000, submitted: "13 Mar 2025", status: "Draft", statusColor: "bg-gray-100 text-gray-600" },
+  { ref: "SIP-2025-002", school: "Mombasa Primary School", county: "Mombasa", amount: 200000, submitted: "11 Mar 2025", status: "SCDE Approved", statusColor: "bg-blue-100 text-blue-700" },
+  { ref: "SIP-2025-003", school: "Kisumu Girls Primary School", county: "Kisumu", amount: 175000, submitted: "12 Mar 2025", status: "Submitted", statusColor: "bg-yellow-100 text-yellow-700" },
+  { ref: "SIP-2025-004", school: "Nakuru Boys Primary School", county: "Nakuru", amount: 180000, submitted: "8 Mar 2025", status: "Funds Disbursed", statusColor: "bg-orange-100 text-orange-700" },
+  { ref: "SIP-2025-005", school: "Eldoret Primary School", county: "Uasin Gishu", amount: 120000, submitted: "13 Mar 2025", status: "Draft", statusColor: "bg-gray-100 text-gray-600" },
 ];
 
 const ministryStats = [

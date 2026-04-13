@@ -57,9 +57,9 @@ export default function PurposePage() {
             <div className="text-3xl mb-3">🏫</div>
             <h3 className="font-bold text-base mb-2">Scope of Application</h3>
             <ul className="text-blue-100 text-sm space-y-1.5">
-              <li>• All public primary schools</li>
+              <li>• Chosen schools</li>
               <li>• Sub-County &amp; County Directors of Education</li>
-              <li>• MoE HQ &amp; KPEEL Project Implementation Unit</li>
+              <li>• Project Coordination Unit (PCU) - KPEEL & SEEQIP</li>
               <li>• All authorized system users</li>
             </ul>
           </div>

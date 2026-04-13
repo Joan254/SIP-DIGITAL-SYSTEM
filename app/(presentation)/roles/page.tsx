@@ -63,7 +63,6 @@ const roles = [
     icon: "💰",
     responsibilities: [
       "Review validated SIP approvals",
-      "Confirm availability of funds",
       "Authorize release of funds",
       "Ensure funds are disbursed to school accounts",
       "Audit and verify fund utilization reports",

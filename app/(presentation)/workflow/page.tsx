@@ -7,7 +7,7 @@ const actors = [
   { name: "Head of Institution", color: "bg-purple-600", short: "HoI" },
   { name: "SCDE", color: "bg-blue-600", short: "SCDE" },
   { name: "CDE", color: "bg-green-600", short: "CDE" },
-  { name: "Finance Unit", color: "bg-red-600", short: "FU" },
+  { name: "Project Coordination Unit (PCU) - KPEEL & SEEQIP", color: "bg-red-600", short: "PCU" },
 ];
 
 const flowItems = [
@@ -30,6 +30,8 @@ const steps = [
       "Log into the Digital SIP System",
       "Complete SIP template (school profile, priorities, activities, budget, outcomes)",
       "Upload supporting documents including BOM approval",
+      "Review and confirm accuracy of all information",
+      "BOM ratifies the SIP draft and provides approval documentation",
       "Submit SIP through the system",
     ],
     systemActions: [
@@ -51,12 +53,12 @@ const steps = [
       "Receives system notification of submitted SIP",
       "Reviews completeness, policy compliance, budget accuracy",
       "Assesses relevance of activities",
-      "Approves, rejects, or returns for revision",
+      "Approves, rejects and returns for revision",
     ],
     systemActions: [
       "Records SCDE decision with timestamp",
       "If approved: forwards SIP to CDE",
-      "If rejected/returned: notifies school with reasons",
+      "If rejected: notifies school with reasons",
     ],
   },
   {
@@ -69,20 +71,20 @@ const steps = [
     icon: "✅",
     actions: [
       "Receives notification of SCDE-approved SIP",
-      "Reviews compliance with Ministry guidelines",
+      "Reviews compliance with approval process",
       "Confirms proper approval process followed",
       "Validates or rejects the SIP",
     ],
     systemActions: [
       "Records CDE validation with timestamp",
-      "If validated: forwards SIP to Ministry Finance Unit",
+      "If validated: forwards SIP to Project Coordination Unit (PCU) and notifies SCDE and school",
       "If rejected: returns with documented reasons",
     ],
   },
   {
     id: 4,
-    phase: "Authorization & Fund Release",
-    actor: "Ministry Finance Unit / KPEEL",
+    phase: "Authorization & Fund Disbursement",
+    actor: "Project Coordination Unit (PCU) - KPEEL & SEEQIP",
     actorColor: "bg-red-600",
     borderColor: "border-red-300",
     bgColor: "bg-red-50",
@@ -97,25 +99,6 @@ const steps = [
       "Updates SIP status to 'Authorized'",
       "Notifies all stakeholders",
       "Triggers fund disbursement process",
-    ],
-  },
-  {
-    id: 5,
-    phase: "Fund Disbursement",
-    actor: "Finance Unit / Bank",
-    actorColor: "bg-orange-600",
-    borderColor: "border-orange-300",
-    bgColor: "bg-orange-50",
-    icon: "🏦",
-    actions: [
-      "Funds disbursed to school bank account",
-      "System records disbursement details",
-      "School notified of fund availability",
-    ],
-    systemActions: [
-      "Updates SIP status to 'Funds Disbursed'",
-      "Records disbursement date and amount",
-      "Sends notification to school",
     ],
   },
   {

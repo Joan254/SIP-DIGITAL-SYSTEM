@@ -25,7 +25,7 @@ const roles = [
     responsibilities: [
       "Review the SIP prepared by the school",
       "Ensure proposed activities align with school priorities",
-      "Approve or reject the SIP",
+      "Ratify the SIP draft",
       "Provide supporting approval documentation",
     ],
   },
@@ -39,8 +39,7 @@ const roles = [
       "Review SIPs submitted by schools",
       "Verify compliance with Ministry policies and guidelines",
       "Assess appropriateness of proposed activities and budgets",
-      "Approve, reject, or return SIPs for revision",
-      "Digitally approve compliant SIPs",
+      "Approve, reject and return SIPs for revision",
     ],
   },
   {
@@ -52,13 +51,12 @@ const roles = [
     responsibilities: [
       "Review SIPs approved by SCDE",
       "Validate the approval process",
-      "Confirm compliance with national and county priorities",
+      "Confirm compliance with the schools priorities",
       "Validate or reject SIP approvals",
-      "Provide digital validation",
     ],
   },
   {
-    role: "Ministry Finance Unit / KPEEL",
+    role: "Project Coordination Unit (PCU) - KPEEL & SEEQIP",
     color: "bg-red-50 border-red-300",
     titleColor: "text-red-800",
     dotColor: "bg-red-500",
@@ -68,6 +66,7 @@ const roles = [
       "Confirm availability of funds",
       "Authorize release of funds",
       "Ensure funds are disbursed to school accounts",
+      "Audit and verify fund utilization reports",
     ],
   },
   {
